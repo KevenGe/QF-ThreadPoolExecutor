@@ -6,11 +6,14 @@
 #define QF_THREAD_POOL_EXECUTOR_H
 
 
+class QFThreadPoolExecutor {
+public:
+    QFThreadPoolExecutor() = delete;
 
-class qf_thread_pool_executor {
+    explicit QFThreadPoolExecutor(int thread_num);
 
+private:
 };
-
 
 
 #endif //QF_THREAD_POOL_EXECUTOR_H
